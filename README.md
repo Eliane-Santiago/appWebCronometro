@@ -6,6 +6,8 @@
 
 Essa aplicação faz a contagem de tempo em segundos, minutos e horas
 
+## teste aqui http://timerfree.42web.io/
+
 ## Como executar essa aplicação
 
 Para usar essa aplicação é só fazer o dowload do repositório e abrir o arquivo index.html no navegador de sua preferência
