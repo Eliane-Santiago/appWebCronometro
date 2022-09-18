@@ -1,2 +1,1 @@
-# appWebCronometro
-App Web Cronômetro
+# App Web Cronômetro
