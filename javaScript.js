@@ -43,7 +43,7 @@ const buttonZerar = document.getElementById("buttonZerar")
 
 
     const btnIniciar = () => {
-       intervalo = setInterval(contador, 10);
+       intervalo = setInterval(contador, 1000);
 
        //console.log(document.getElementById("inputTempo").value = intervalo)
     }
