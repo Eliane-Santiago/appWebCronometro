@@ -1,0 +1,45 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cronômetro</title>
+    <!--Bootstrap-->
+    <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+
+  </head>
+  <body>
+    <div id="fundo">
+      <img src="img/fundo03.jpg">
+    </div>
+    <main id="principal-card">
+
+      <div class="card container text-center">
+
+        <div class="card-header">
+          <h1>Cronômetro</h1>
+        </div>
+        
+        <div class="card-body">
+          <div class="card-input card-title">
+             <input type="text" id="inputTempo" placeholder="00:00:00" disabled>
+           </div>
+          
+          <button class="btn btn-dark" id="buttonIniciar">Iniciar</button>
+          <button class="btn btn-dark" id="buttonPausar">Pausar</button>
+          <button class="btn btn-dark" id="buttonZerar">Zerar</button>
+        </div>
+        
+      </div>
+
+    </main>
+    <!--JAVASCRIPT-->
+    <script type="text/javascript" src="javaScript.js"></script>
+  </body>
+</html>

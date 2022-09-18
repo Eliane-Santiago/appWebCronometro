@@ -1,0 +1,53 @@
+
+body{
+    background: #a7a4a4;
+	display: flex;
+	align-items: center;
+	
+}
+
+#fundo{
+	height: 100vh; /*Medida Relativa ao pagina -> 100vh*/
+	width: 100vw; /*Medida Relativa ao pagina -> 100vw*/
+	display: block;
+	z-index: -1;
+	overflow: hidden;
+}
+
+img{
+	width: 100%; /*Medida Relativa ao pai -> 100%*/
+	opacity: 0.3;
+}
+
+main{
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100vw;
+}
+
+.card{
+	width: 400px;
+	height: 200px;
+	padding: 0;
+}
+
+.card-header{
+	width: 100%;
+}
+
+h1{
+	color:  #474447;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	
+}
+
+#inputTempo{
+	font-size: 22px;
+	font-family: Lucida;
+	text-align: center;
+
+}
+
